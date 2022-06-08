@@ -16,8 +16,8 @@
 */
 
 // Config
-CHECKED_URL = "https://bbapi.byemc.xyz/info"
-TITLE="ByeBot"
+CHECKED_URL = "https://google.co.ck"
+TITLE       = "Google Cook Islands"
 
 // -- END OF CONFIG // RECCOMMENDED NOT TO EDIT BELOW THIS LINE -- //
 

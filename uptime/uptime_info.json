@@ -1,0 +1,6 @@
+{
+    "version": "0.1.0",
+    "name": "Uptime",
+    "description": "Gets the the online status of a website",
+    "versionarray": [0, 1, 0]
+}

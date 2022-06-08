@@ -1,6 +1,6 @@
 # Scriptables
 
-A collection of scripts for the [Scriptable](https://scriptable.com) iOS app. Install instructions are on the script's page.
+A collection of scripts for the [Scriptable](https://scriptable.app) iOS app. Install instructions are on the script's page.
 
 *Jump to script*
 

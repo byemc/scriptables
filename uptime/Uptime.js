@@ -11,7 +11,7 @@
 
   TODO:
   - Add response time to the output.
-  - Add uptime presentage
+  - Add uptime precentage
 
 */
 

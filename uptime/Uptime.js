@@ -23,10 +23,10 @@ TITLE       = "Google Cook Islands"
 
 var isOn = false
 var responseTime;
-const version = [0, 1, 0] // for version checking in the future
+const version = [0, 1, 1] // for version checking in the future
 
-onlineColor = new Color("#0ed40b", 0)
-offlineColor= new Color("#ff4d4d", 0)
+onlineColor = new Color("#0ed40b", 100)
+offlineColor= new Color("#ff4d4d", 100)
 
 bigFont = new Font("San Fransisco", 30)
 
@@ -41,14 +41,14 @@ checkAttempt = new Request(CHECKED_URL)
 checkAttempt.loadString().then(r => {  
   console.log(r)
   onlText = onlineStack.addText("Online")
-//   onlText.textColor = onlineColor
+  onlText.textColor = onlineColor
   isOn = true;
   console.log(isOn);
 })
 .catch(r => {
   isOn=false;
   onlText = onlineStack.addText("Offline")
-//   onlText.textColor = offlineColor
+  onlText.textColor = offlineColor
   }
 )
 .then(r => {

@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Uptime",
+        "path": "/uptime",
+        "ver": "0.1.0",
+        "desc": "A widget that tells you if a website is up or down",
+        "file": "Uptime.js"
+    }
+]
